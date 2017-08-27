@@ -1,2 +1,3 @@
 name: Joseph McGrath
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
