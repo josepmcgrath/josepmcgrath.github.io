@@ -1,7 +1,6 @@
 .header  {
     positon: fixed;
     background-color: #333;
-    z-index: 1000;
 }
 
 .container {
