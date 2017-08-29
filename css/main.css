@@ -1,6 +1,6 @@
 .header  {
     positon: fixed;
-    background-color: #615B5A;
+    background-color: #333;
 }
 
 .container {
@@ -25,5 +25,5 @@
 }
 
 #name {
-    color:#CE3117
+    text-size: 120%;
 }
