@@ -13,7 +13,7 @@
 
 .nav li {
     color: #FFF;
-    /*display: inline;*/
+    display: inline;
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 12px;
