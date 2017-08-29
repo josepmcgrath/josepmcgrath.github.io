@@ -4,12 +4,15 @@
 }
 
 .container {
-    max-width: 940px;  
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .nav {
     list-style-type: none;
     margin: 0;
+    padding: 20px 0;
 }
 
 .nav li {
@@ -17,6 +20,10 @@
     display: inline;
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 24px;
+    font-size: 12px;
     text-transform: uppercase;
+}
+
+#name {
+    color:#CE3117
 }
