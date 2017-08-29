@@ -41,3 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.header  {
+    positon: fixed;
+    font-family: Georgia, serif;
+}
