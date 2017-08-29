@@ -7,12 +7,14 @@
     max-width: 940px;
     margin: 0 auto;
     padding: 0 10px;
+    position: fixed;
 }
 
 .nav {
     list-style-type: none;
     margin: 0;
     padding: 20px 0;
+    position: fixed;
 }
 
 .nav li {
