@@ -1,5 +1,5 @@
 .header  {
-    background-color: #466995;
+    background-color: rgba(70,105,149,100%);
     width: 100%;
     top: 0px;
     left: 0px;
@@ -39,7 +39,7 @@ body {
 
 p {
     position: relative;
-    top: 240px;
+    top: 50px;
 }
 
 h1 {
