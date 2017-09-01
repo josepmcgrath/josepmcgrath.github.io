@@ -74,7 +74,7 @@ body {
     text-transform: uppercase; }
   #mainNav .navbar-brand {
     color: #3676FE;
-    font-family: ''Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
