@@ -44,11 +44,11 @@ section {
     padding: 150px 0; } }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #3676FE;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #3676FE;
   text-shadow: none; }
 
 img::selection {
@@ -58,7 +58,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #3676FE; }
 
 #mainNav {
   background-color: #222222; }
