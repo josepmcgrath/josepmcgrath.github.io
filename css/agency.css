@@ -435,7 +435,9 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
-
+#contact  {
+  background-color: #f1f1f1;
+}
 footer {
   padding: 25px 0;
   text-align: center; }
