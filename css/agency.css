@@ -437,6 +437,10 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+    #team {
+      background-color: white;
+    }
+
 #contact  {
   background-color: #f1f1f1;
 }
