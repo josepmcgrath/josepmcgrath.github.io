@@ -13,7 +13,7 @@ p {
 a {
   color: #3676FE; }
   a.active, a:active, a:focus, a:hover {
-    color: #fec503; }
+    color: #2F487E; }
 
 h1,
 h2,
@@ -436,10 +436,10 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
-
-    #team {
-      background-color: white;
-    }
+    
+.col-sm-4  {
+  margin: auto;
+}
 
 #contact  {
   background-color: #f1f1f1;
