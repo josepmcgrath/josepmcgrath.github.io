@@ -436,9 +436,13 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
-    
+
 .col-sm-4  {
   margin: auto;
+}
+
+.bg-light  {
+  background-color: white;
 }
 
 #contact  {
