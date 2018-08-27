@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Agency v4.0.0-beta (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
+ * Start Bootstrap - Agency v4.0.0-beta (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
@@ -11,9 +11,9 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #3676FE; }
+  color: #fed136; }
   a.active, a:active, a:focus, a:hover {
-    color: #2F487E; }
+    color: #fec503; }
 
 h1,
 h2,
@@ -44,11 +44,11 @@ section {
     padding: 150px 0; } }
 
 ::-moz-selection {
-  background: #3676FE;
+  background: #fed136;
   text-shadow: none; }
 
 ::selection {
-  background: #3676FE;
+  background: #fed136;
   text-shadow: none; }
 
 img::selection {
@@ -58,7 +58,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #3676FE; }
+  -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
   background-color: #222222; }
@@ -69,15 +69,14 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #3676FE;
+    background-color: #fed136;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .navbar-brand {
-    color: white;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;}
+    color: #fed136;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #3676FE; }
+      color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -87,7 +86,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #3676FE; }
+      color: #fed136; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -97,7 +96,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: rgba(34,34,34,.8); }
+    background-color: transparent; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -116,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("https://user-images.githubusercontent.com/12993050/29982695-bf0ac3de-8f20-11e7-95c1-bd6af442647e.JPG");
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -180,7 +179,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(54, 163, 254, 0.9); }
+      background: rgba(254, 209, 54, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -227,7 +226,7 @@ header.masthead {
 .portfolio-modal .modal-content {
   min-height: 100%;
   padding: 100px 0;
-  text-align: left;
+  text-align: center;
   border: none;
   border-radius: 0;
   background-clip: border-box;
@@ -336,7 +335,7 @@ header.masthead {
       color: white;
       border: 7px solid #f1f1f1;
       border-radius: 100%;
-      background-color: #3676FE; }
+      background-color: #fed136; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -423,9 +422,7 @@ header.masthead {
 
 .team-member {
   margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;}
+  text-align: center; }
   .team-member img {
     width: 225px;
     height: 225px;
@@ -437,13 +434,50 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
-.col-sm-4  {
-  margin: auto;
-}
+section#contact {
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+  section#contact .section-heading {
+    color: white; }
+  section#contact .form-group {
+    margin-bottom: 25px; }
+    section#contact .form-group input,
+    section#contact .form-group textarea {
+      padding: 20px; }
+    section#contact .form-group input.form-control {
+      height: auto; }
+    section#contact .form-group textarea.form-control {
+      height: 236px; }
+  section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+  section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    /* Firefox 18- */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    /* Firefox 19+ */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact .text-danger {
+    color: #e74c3c; }
 
-#contact  {
-  background-color: white;
-}
 footer {
   padding: 25px 0;
   text-align: center; }
@@ -477,38 +511,38 @@ ul.social-buttons {
     outline: none;
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #3676FE; }
+      background-color: #fed136; }
 
 .text-primary {
-  color: #3676FE !important; }
+  color: #fed136 !important; }
 
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #3676FE;
-  background-color: #3676FE;
+  border-color: #fed136;
+  background-color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #b48b01;
+    background-color: #fec503; }
   .btn-primary:hover {
     color: white;
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #f6bf01;
+    background-color: #fec503; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #f6bf01;
+    background-color: #fec503; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
-      border-color: #3676FE;
-      background-color: #3676FE; }
+      border-color: #b48b01;
+      background-color: #dcab01; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -516,10 +550,10 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #fed136;
+    background-color: #fed136; }
   .btn-primary .badge {
-    color: #3676FE;
+    color: #fed136;
     background-color: white; }
 
 .btn-xl {
@@ -528,30 +562,30 @@ ul.social-buttons {
   padding: 20px 40px;
   border-radius: 3px;
   color: white;
-  border-color: #222222;
-  background-color: #222222;
+  border-color: #fed136;
+  background-color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #b48b01;
+    background-color: #fec503; }
   .btn-xl:hover {
     color: white;
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #f6bf01;
+    background-color: #fec503; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #f6bf01;
+    background-color: #fec503; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
       color: white;
-      border-color: #3676FE;
-      background-color: #3676FE; }
+      border-color: #b48b01;
+      background-color: #dcab01; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
@@ -559,8 +593,8 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl.focus,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl:hover {
-    border-color: #3676FE;
-    background-color: #3676FE; }
+    border-color: #fed136;
+    background-color: #fed136; }
   .btn-xl .badge {
-    color: #3676FE;
+    color: #fed136;
     background-color: white; }
