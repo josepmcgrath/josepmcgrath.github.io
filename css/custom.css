@@ -113,7 +113,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("https://user-images.githubusercontent.com/12993050/29982695-bf0ac3de-8f20-11e7-95c1-bd6af442647e.JPG");
+  background-image: url("img/about/background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -301,7 +301,7 @@ header.masthead {
     position: relative;
     min-height: 50px;
     margin-bottom: 50px; }
-    .timeline > li:after, .timeline > li:before {
+    .timeline > li:before {
       display: table;
       content: ' '; }
     .timeline > li:after {
@@ -310,7 +310,7 @@ header.masthead {
       position: relative;
       float: right;
       width: 100%;
-      padding: 0 20px 0 100px;
+      padding: 0 20px 40px 100px;
       text-align: left; }
       .timeline > li .timeline-panel:before {
         right: auto;
@@ -340,7 +340,7 @@ header.masthead {
         margin-top: 12px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
-      padding: 0 20px 0 100px;
+      padding: 0 20px 40px 100px;
       text-align: left; }
       .timeline > li.timeline-inverted > .timeline-panel:before {
         right: auto;
@@ -352,7 +352,7 @@ header.masthead {
         left: -14px;
         border-right-width: 14px;
         border-left-width: 0; }
-    .timeline > li:last-child {
+    .timeline > li.last-child {
       margin-bottom: 0; }
   .timeline .timeline-heading h4 {
     margin-top: 0;
@@ -459,7 +459,8 @@ footer {
     text-transform: uppercase; }
 
 ul.social-buttons {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 20px; }
   ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
