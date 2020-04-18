@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timeline on Joseph McGrath</title>
+    <link>https://josephmcgrath.me/timeline/</link>
+    <description>Recent content in Timeline on Joseph McGrath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2019 20:46:39 -0500</lastBuildDate>
+    
+	<atom:link href="https://josephmcgrath.me/timeline/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Epic - MyChart</title>
+      <link>https://josephmcgrath.me/timeline/epic/</link>
+      <pubDate>Wed, 07 Aug 2019 20:46:39 -0500</pubDate>
+      
+      <guid>https://josephmcgrath.me/timeline/epic/</guid>
+      <description>Hello what&amp;rsquo;s up? What happens in this is really long? Oh, not good.</description>
+    </item>
+    
+    <item>
+      <title>Computer Vision Research Lab</title>
+      <link>https://josephmcgrath.me/timeline/cvrl/</link>
+      <pubDate>Thu, 14 Jun 2018 22:24:01 -0500</pubDate>
+      
+      <guid>https://josephmcgrath.me/timeline/cvrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of Oxford</title>
+      <link>https://josephmcgrath.me/timeline/oxford/</link>
+      <pubDate>Sat, 14 Oct 2017 22:15:33 -0500</pubDate>
+      
+      <guid>https://josephmcgrath.me/timeline/oxford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Tsing Hua University, Hsinchu, Taiwan</title>
+      <link>https://josephmcgrath.me/timeline/taipei/</link>
+      <pubDate>Wed, 14 Jun 2017 22:09:44 -0500</pubDate>
+      
+      <guid>https://josephmcgrath.me/timeline/taipei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>University of Notre Dame</title>
+      <link>https://josephmcgrath.me/timeline/notredame/</link>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://josephmcgrath.me/timeline/notredame/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

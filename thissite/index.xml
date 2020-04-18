@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About This Site on Joseph McGrath</title>
+    <link>https://josephmcgrath.me/thissite/</link>
+    <description>Recent content in About This Site on Joseph McGrath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2020 19:49:52 -0500</lastBuildDate>
+    
+	<atom:link href="https://josephmcgrath.me/thissite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
